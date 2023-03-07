@@ -1,10 +1,10 @@
 numPrompt =prompt("Number of rounds")
-compChoice = Math.round(Math.random()*3)
 
-let yourChoice
+let yourChoice;
 yourChoice = prompt("r,p, or s")
 // Conditional statements
 let compChoice
+compChoice = Math.round(Math.random()*3)
 if (compChoice === 0){
     compChoice = "r"
 } else if(compChoice === 1){
@@ -13,7 +13,7 @@ if (compChoice === 0){
     compChoice = "s"
 }
 if (yourChoice=== compChoice){
-    alert("Tie")
+    alert("It's a tie")
 } else if (yourChoice> compChoice) {
     alert("Winner")
 } else (yourChoice < compChoice); {
