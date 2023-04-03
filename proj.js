@@ -34,3 +34,11 @@ if (yourChoice=== "s") {
 }
 console.log(numPrompt);
 }
+function globalTotal(won,loss, tie) {
+    const won = "Winner" - numPrompt
+    const loss = "Loser" - numPrompt
+    const tie =  "It's a tie" - numPrompt
+    alert("You won" + won + "round(s)" + "," + "You lost" + loss + "round(s)"+ "," + "You tied" + tie + "round(s)")
+}
+
+globalTotal; 
