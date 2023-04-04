@@ -15,30 +15,30 @@ if (compChoice === 0){
 }
 if (yourChoice=== compChoice){
     alert("It's a tie!")
-}  if (yourChoice==="p") {
-    if (compChoice==="s")
-    alert("Loser")
+}  if (yourChoice==="s") {
+    compChoice==="p"
+    alert("You won!")
 } else {
-    alert("Winner!");
+    alert("You lost!");
 } if (yourChoice=== "r") {
-    if (compChoice==="p")
-    alert("Loser")
+    compChoice==="p"
+    alert("You lost!")
 }else {
-    alert("Winner")
+    alert("You won!")
 }
-if (yourChoice=== "s") {
-    if (compChoice==="r")
-    alert("Loser")
+if (yourChoice=== "r") {
+    compChoice==="s"
+    alert("You won!")
 } else {
-    alert("Winner")
+    alert("You lost!")
+}
 }
 console.log(numPrompt);
-}
-function globalTotal(won,loss, tie) {
-    const won = "Winner" - numPrompt
-    const loss = "Loser" - numPrompt
-    const tie =  "It's a tie" - numPrompt
-    alert("You won" + won + "round(s)" + "," + "You lost" + loss + "round(s)"+ "," + "You tied" + tie + "round(s)")
-}
 
-globalTotal; 
+    let won = 0
+    won++;
+    let loss = 0
+    loss++;
+    let tie = 0
+    tie++;
+    alert("You won"+ " " + won + " " + "rounds" + "," + "You lost" + " " + loss + " " +"rounds" +"," + "You tied" +" " + tie +" "+ "rounds")
