@@ -1,5 +1,4 @@
-let numPrompt 
-numPrompt=parseInt(prompt("Number of rounds"))
+let numPrompt=parseInt(prompt("Number of rounds"))
 for(let i = 0; i < numPrompt; i++) {
 let yourChoice;
 yourChoice = prompt("Choose r,p, or s")
@@ -14,31 +13,18 @@ if (compChoice === 0){
     compChoice = "s"
 }
 if (yourChoice=== compChoice){
+    tie= 0
+    tie++;
     alert("It's a tie!")
-}  if (yourChoice==="s") {
-    compChoice==="p"
+}  else if (yourChoice==="s" && compChoice==="p" && yourChoice==="p" && compChoice==="r"&& compChoice==="r" && compChoice==="s") {
+    let won = 0
+    won++;
     alert("You won!")
-} else {
+} else (yourChoice==="s" && compChoice==="p" && yourChoice==="p" && compChoice==="r"&& compChoice==="r" && compChoice==="s");{
     alert("You lost!");
-} if (yourChoice=== "r") {
-    compChoice==="p"
-    alert("You lost!")
-}else {
-    alert("You won!")
-}
-if (yourChoice=== "r") {
-    compChoice==="s"
-    alert("You won!")
-} else {
-    alert("You lost!")
+    let loss= 0
+    loss++;
 }
 }
 console.log(numPrompt);
-
-    let won = 0
-    won++;
-    let loss = 0
-    loss++;
-    let tie = 0
-    tie++;
-    alert("You won"+ " " + won + " " + "rounds" + "," + "You lost" + " " + loss + " " +"rounds" +"," + "You tied" +" " + tie +" "+ "rounds")
+alert("You won "+  won + " rounds " + "," + " You lost " + loss +" rounds" +"," + " You tied " + tie + " rounds");
