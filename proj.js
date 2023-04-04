@@ -13,7 +13,7 @@ if (compChoice === 0){
     compChoice = "s"
 }
 if (yourChoice=== compChoice){
-    tie=0
+    let tie=0
     tie++;
     alert("It's a tie!")
 }  else if (yourChoice==="s" && compChoice==="p", 
