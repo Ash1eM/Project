@@ -13,18 +13,22 @@ if (compChoice === 0){
     compChoice = "s"
 }
 if (yourChoice=== compChoice){
-    tie= 0
+    tie=0
     tie++;
     alert("It's a tie!")
-}  else if (yourChoice==="s" && compChoice==="p" && yourChoice==="p" && compChoice==="r"&& compChoice==="r" && compChoice==="s") {
-    let won = 0
+}  else if (yourChoice==="s" && compChoice==="p", 
+ yourChoice==="p" && compChoice==="r",
+compChoice==="r" && compChoice==="s") {
+    let won =0
     won++;
     alert("You won!")
-} else (yourChoice==="s" && compChoice==="p" && yourChoice==="p" && compChoice==="r"&& compChoice==="r" && compChoice==="s");{
+} else (yourChoice==="s" && compChoice==="p",
+ yourChoice==="p" && compChoice==="r",
+  compChoice==="r" && compChoice==="s");{
     alert("You lost!");
     let loss= 0
     loss++;
 }
 }
 console.log(numPrompt);
-alert("You won "+  won + " rounds " + "," + " You lost " + loss +" rounds" +"," + " You tied " + tie + " rounds");
+alert("You won "+ won + " rounds " + "," + " You lost " + loss +" rounds" +"," + " You tied " + tie + " rounds")
